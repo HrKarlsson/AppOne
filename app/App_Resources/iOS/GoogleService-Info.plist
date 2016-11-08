@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>768508798594-iu7msjl5tkv7b23ai5hkc58qapaq0hli.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.768508798594-iu7msjl5tkv7b23ai5hkc58qapaq0hli</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDH5k0bRzXLC6pUheb-pI8_0qOiX992OgA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>768508798594</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.roskosch.appone</string>
+	<key>PROJECT_ID</key>
+	<string>appone-174b8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>appone-174b8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:768508798594:ios:9410a33a256f6a18</string>
+	<key>DATABASE_URL</key>
+	<string>https://appone-174b8.firebaseio.com</string>
+</dict>
+</plist>
