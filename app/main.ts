@@ -31,6 +31,12 @@ firebase.init({
           { foo: 'bar' }
         );
 
+        console.log("add event");
+        firebase.addOnMessageReceivedCallback(function (message) {
+          console.log("log event");
+          console.log(message);
+        });
+
 
       },
       function (errorMessage) {
@@ -47,8 +53,6 @@ firebase.init({
     console.log("firebase.init error: " + error);
   }
   );
-
-
 
 
 
