@@ -34,6 +34,7 @@
     "@angular/platform-server": "2.0.0",
     "@angular/router": "3.0.0",
     "nativescript-angular": "1.0.0",
+    "nativescript-local-notifications": "^1.1.9",
     "nativescript-plugin-firebase": "^3.7.1",
     "reflect-metadata": "0.1.8",
     "rxjs": "5.0.0-beta.12",

@@ -4,6 +4,7 @@ import { AppModule } from "./app.module";
 
 
 import firebase = require("nativescript-plugin-firebase");
+import * as LocalNotifications from "nativescript-local-notifications";
 
 
 //firebase.addValueEventListener((result: any) => {
@@ -35,6 +36,30 @@ firebase.init({
         firebase.addOnMessageReceivedCallback(function (message) {
           console.log("log event");
           console.log(message);
+
+
+          LocalNotifications.schedule([{
+            id: 1,
+            title: 'The title',
+            body: 'Recurs every minute until cancelled',
+            ticker: 'The ticker',
+            badge: 1,
+            ongoing: true, // makes the notification ongoing (Android only)
+            smallIcon: 'res://heart.png',
+            interval: 'minute',
+            sound: null, // suppress the default sound
+            at: new Date(new Date().getTime() + (10 * 1000)) // 10 seconds from now
+          }]).then(
+            function () {
+              console.log("Notification scheduled");
+            },
+            function (error) {
+              console.log("scheduling error: " + error);
+            }
+            )
+
+
+
         });
 
 
